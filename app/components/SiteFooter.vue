@@ -31,7 +31,7 @@
         {{ $t("footer.fiveMinutes") }}
       </n-p>
       <n-p depth="3">
-        Copyright &copy; 2020 - {{ new Date().getFullYear() }}
+        Copyright &copy; 2024 - {{ new Date().getFullYear() }}
         <n-text depth="3" @click="jumpLink(linkData.home)"> Zhang </n-text>
         <n-text
           v-if="siteIcp"
